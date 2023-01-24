@@ -5,4 +5,31 @@
 }
 .top-container{
     border: solid red;
+    display: block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logo-container{
+    float: left;
+    border: solid green;
+}
+.logo{
+    height: 200px;
+}
+.nav-container{
+    border: solid green;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
