@@ -5,17 +5,15 @@
 }
 body{
     display: block;
-    position: relative;
 }
 .top-container{
     /* border: solid red; */
     display: flex;
+    height: 200px;
+    width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-    /* column-gap: 200px; */
-    position: sticky;
-    top: 0;
-    background-color: white;
+    
     
     
 }
